@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 header {
@@ -70,7 +72,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
     box-shadow: 2px -2px 12px 5px #604829;
 }
 
@@ -90,13 +91,19 @@ a:hover {
     display: flex;
     justify-content: space-between;
     padding: 0 3px;   
+    align-items: center;
+    border-top: 1px solid;
+}
+
+.preço span {
+    padding-top: 20px;
 }
 
 .preco div img {
     border: 2px solid #c4a47c;
     padding: 5px;
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 8px 15px;
 }
 
 .container-horario {
@@ -147,7 +154,7 @@ a:hover {
     text-align: left;
 }
 
-.lista p, span {
+.lista p, li span {
     flex: 0 1 115px;
     text-align: right;
 }
